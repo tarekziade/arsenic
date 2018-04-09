@@ -9,7 +9,7 @@ setup(
     install_requires=[
         'attrs>=17.1.0',
         'structlog',
-        'aiohttp>=2',
+        'aiohttp<3.0.0',
     ],
     license='APLv2',
     classifiers=[
